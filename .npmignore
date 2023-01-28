@@ -1,0 +1,12 @@
+# Production
+.parcel-cache
+dist
+node_modules
+
+# Development
+.postcssrc
+tailwind.config.js
+
+# Source files
+src/*
+!src/index.js

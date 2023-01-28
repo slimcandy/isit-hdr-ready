@@ -1,0 +1,32 @@
+{
+  "name": "isit-hdr-ready",
+  "version": "0.0.6",
+  "description": "Pure js NPM package to check hdr support in css (browser and hardware)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --no-cache"
+  },
+  "keywords": [
+    "js",
+    "nsh",
+    "pure js",
+    "javascript",
+    "css",
+    "hdr",
+    "hdr support checker in css",
+    "browser support checker in css"
+  ],
+  "author": "@slimcandy",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "isit-hdr-ready": "^0.0.1"
+  }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HDR Check | NPM Package</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./index.js" type="module"></script>
+  <script src="./custom.js" type="module"></script>
+</head>
+
+<body class=" md:px-14 md:py-10 px-10 py-6 hyphens-auto max-w-3xl mx-auto">
+  <header class="mb-2 py-4 text-center lg:py-10 lg:text-left">
+    <h1 class="mb-2 text-4xl font-extrabold sm:text-5xl lg:text-6xl">
+      HDR check</h1>
+    <p class="text-lg font-extrabold sm:text-xl lg:text-2xl">NPM package to check hdr support in css (browser and
+      hardware)</p>
+  </header>
+  <main class="mb-2 flex w-full flex-col items-center space-y-10 lg:flex-row lg:items-start lg:space-x-4 lg:space-y-0">
+    <ul class="my-2 flex max-w-sm flex-col gap-2 text-left">
+      <li class="flex gap-2 before:content-['✔']">Check if browser supports HDR</li>
+      <li class="flex gap-2 before:content-['✔']">Check if hardware supports HDR</li>
+    </ul>
+    <pre
+      class="bg-slate-800 border break-words cursor-copy font-mono font-normal hyphens-none leading-relaxed md:text-xl my-8 overflow-x-auto px-5 py-4 rounded select-all shadow-xl text-slate-200 text-sm whitespace-pre-line"><code>npm i isit-hdr-ready</code></pre>
+  </main>
+  <hr class="mt-2 block">
+  <footer class="mb-2 py-4 text-center lg:py-10 lg:text-left">
+    <h2>Usage</h2>
+    <pre
+      class="bg-slate-800 border break-words cursor-copy font-mono font-normal hyphens-none leading-relaxed md:text-xl my-8 overflow-x-auto px-5 py-4 rounded select-all shadow-xl text-slate-200 text-sm whitespace-pre-line"><code>import { isitHDRReady } from 'isit-hdr-ready';
+    </code></pre>
+    <h2 class="text-lg font-extrabold sm:text-xl lg:text-2xl">Example</h2>
+
+    <h3 class="text-lg font-extrabold sm:text-xs lg:text-xl">code</h3>
+    <pre
+      class="bg-slate-800 border break-words cursor-copy font-mono font-normal hyphens-none leading-relaxed md:text-xl my-8 overflow-x-auto px-5 py-4 rounded select-all shadow-xl text-slate-200 text-sm whitespace-pre-line"><code>import { isitHDRReady } from 'isit-hdr-ready';
+       
+        const hdrReadyMessage = document.querySelector(".hdr-ready-message");
+        if (isitHDRReady()) {
+          hdrReadyMessage.classList.remove("hidden");
+        }
+        
+    </code></pre>
+    <h3 class="text-lg font-extrabold sm:text-xs lg:text-xl">result</h3>
+    <p class="hdr-not-ready-message">✅ Browser support sRGB</p>
+    <p class="hdr-ready-message hidden">✅ Browser and Hardware is HDR ready</p>
+  </footer>
+</body>
+
+</html>
