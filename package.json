@@ -1,6 +1,6 @@
 {
   "name": "isit-hdr-ready",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "Pure js NPM package to check hdr support in css (browser and hardware)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -27,5 +27,10 @@
   },
   "dependencies": {
     "isit-hdr-ready": "^0.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slimcandy/isit-hdr-ready.git"
+  },
+  "homepage": "https://hdr.js.garden"
 }

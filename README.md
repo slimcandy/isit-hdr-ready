@@ -2,6 +2,8 @@
 
 Pure js NPM package to check hdr support in css (browser and hardware)
 
+[homepage](https://hdr.js.garden) | [github](https://github.com/slimcandy/isit-hdr-ready)
+
 ## Installation
 
 Install it in a project
