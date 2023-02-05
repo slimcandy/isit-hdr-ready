@@ -33,3 +33,9 @@ if (isitHDRReady()) {
 ```
 
 ## ⚠️ It checks only display-p3 support
+
+## Contributors
+
+<a href="https://github.com/slimcandy/isit-hdr-ready/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=slimcandy/isit-hdr-ready" />
+</a>
